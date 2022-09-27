@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cecece;
+    /*border-top: 40px solid #2f412f;*/
+}
+.post {
+    background-color: #ffffff;
+    margin: 5px;
+    width: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    height: auto;
+    min-height: 75px;
+    border: 1.5px solid #5e5e5e;
+    border-radius: 10px;
+}
+p {
+    font: message-box;
+    color: #312e2e;
+    padding: 2px;
+    padding-left: 3px;
+}
+#inp1 {
+    display: block;
+    margin: 5px;
+    outline: none;
+    width: 20%;
+    min-width: 200px;
+    min-height: 25px;
+    background-color: #bbbb9a;
+    height: 20%;
+    border: 1px solid grey;
+}
+#inp2 {
+    display: block;
+    margin: 5px;
+    outline: none;
+    width: 20%;
+    min-width: 200px;
+    min-height: 25px;
+    background-color: #bbbb9a;
+    height: 20%;
+    border: 1px solid grey;
+}
+#panel {
+    margin-top: 5px;
+    width: 10%;
+    height: 100%;
+    min-height: 815px;
+    background-color: #7c7878;
+    display: inline-block;
+    box-shadow: 2px 2px 3px #5d5d5d;
+    float: left;
+    padding-bottom: 50px;
+}
+#form {
+    width: 89%;
+    height: auto;
+    min-width: 600px;
+    min-height: 200px;
+    background-color: #bebebe;
+    margin: 5px;
+    box-shadow: 2px 3px 3px grey;
+    border-top: 7px solid seagreen;
+    display: block;
+    float: right;
+}
+#list {
+    width: 89%;
+    height: 600px;
+    background-color: #ececec;
+    margin: 5px;
+    box-shadow: 2px 3px 3px grey;
+    display: block;
+    float: right;
+    overflow-y: scroll;
+}
+#btn {
+    margin: 5px;
+    width: 5%;
+    min-width: 75px;
+    height: 25px;
+    border: 1px solid seagreen;
+    border-radius: 60px;
+}
+#btn:hover {
+    box-shadow: 1px 1px 5px #476447;
+}
+#btn:active {
+    background-color: #dedede;
+    box-shadow: none;
+}
+#remove {
+    margin: 5px;
+    width: 5%;
+    min-width: 75px;
+    height: 25px;
+    border: 1px solid #981800;
+    border-radius: 60px;
+}
+#remove:hover {
+    box-shadow: 1px 1px 5px #4b0a0a;
+}
+#remove:active {
+    background-color: #e5b2b2;
+    box-shadow: none;
+}
+#pr {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 1%;
+    font-size: 35px;
+    display: block;
+    position: relative;
+}
+#clear {
+    margin: 5px;
+    width: 5%;
+    min-width: 75px;
+    height: 25px;
+    border: 1px solid #464646;
+    border-radius: 60px;
+    position: center;
+}
+#clear:hover {
+    box-shadow: 1px 1px 5px #7c7878;
+}
+#clear:active {
+    background-color: #e0e0e0;
+    box-shadow: none;
+}
+#clear1 {
+    margin: 5px;
+    width: 5%;
+    min-width: 75px;
+    height: 25px;
+    border: 1px solid #464646;
+    border-radius: 60px;
+    position: center;
+}
+#clear1:hover {
+    box-shadow: 1px 1px 5px #7c7878;
+}
+#clear1:active {
+    background-color: #e0e0e0;
+    box-shadow: none;
+}
+#complete {
+    background-color: #c4c4c4;
+    margin: 5px;
+    width: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    height: auto;
+    min-height: 75px;
+    border: 1.5px solid #2c3d2c;
+    border-radius: 10px;
+    box-shadow: -2px 2px 1px grey;
+    text-decoration: line-through;
+}
+h1 {
+    margin-left: 5px;
+    color: #333030;
+    font: message-box;
+    font-size: 25px;
+}
+#logo {
+    margin: 10px;
+    width: auto;
+    max-width: 75px;
+    top: 10px;
+}
+#header {
+    width: 100%;
+    min-height: 50px;
+    height: 3%;
+    background-color: #2f412f;
+}
+#minipost {
+    padding: 0;
+    font-size: 10px;
+    background-color: #cbcbcb;
+    margin: 5px;
+    width: auto;
+    min-width: 20px;
+    max-width: 1000px;
+    max-height: 30px;
+    height: auto;
+    min-height: 20px;
+    border: 1.5px solid #363636;
+    border-radius: 5px;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+    font: message-box;
+    font-size: 15px;
+}
+#h1 {
+    color: #171616;
+    margin-top: 5px;
+    margin-left: 30%;
+}
+#cbx {
+    position: relative;
+    margin-right: 30px;
+    float: right;
+    top: 40px;
+}
+#wrap {
+    background-color: #7c7878;
+    position: absolute;
+    bottom: 0px;
+    margin: 10px;
+    box-shadow: 2px 2px 3px grey;
+}
+#all {
+    margin: auto;
+}
+#miniCbx {
+    position: relative;
+    float: right;
+    right: 0;
+    top: -16px;
+}
+

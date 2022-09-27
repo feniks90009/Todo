@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="components/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo_v0.2</title>
+</head>
+<body>
+<div id="header">
+    <img id="logo" src="components/images/todo_logo.jpg">
+</div>
+    <div id="app">
+        <div id="panel">
+            <h1 id="h1">Лист</h1>
+            <ol>
+                
+            </ol>
+            <div id="wrap">
+                <p id="all">Все дела: 0</p>
+            </div>
+
+        </div>
+        <div id="form">
+            <form onsubmit="return false">
+                <p>Название:</p><input value="" id="inp2"><button id="clear1">Очистить</button>
+                <p>Дело:</p><input value="" id="inp1"><button id="clear">Очистить</button>
+                <button type="submit" id="btn">Создать</button>
+                <button type="button" id="remove">Удалить</button>
+            </form>
+        </div>
+        <div id="list">
+            <p id="pr">Список</p>
+        </div>
+    </div>
+<script src="components/todo.js"></script>
+</body>
+</html>
